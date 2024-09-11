@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/select-style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    
+    <title>Time Around The World</title>
+</head>
+<body>
+    <section class="clock-app">
+        <div class="container">
+            <blockquote>
+                <p id="text">
+                    "The science of operations, as derived from mathematics more especially, is a science of itself, and has its own abstract truth and value."
+                </p>
+                <span id="author">Ada Lovelace</span>
+                <span id="btn-refresh-quote" class="change-quote material-symbols-outlined">autorenew</span>
+            </blockquote>
+            <div class="infos">
+                <div>
+                    <div id="day-period"></div>
+                    <div id="time"></div>
+                    <div id="location">
+                        In <span id="city">Europe/London</span>, <span id="country">UK</span>
+                    </div>
+                </div>
+                <div class="location-select">
+                    <div class="dropdown">
+                        <input type="text" class="text-box" name="" id="" placeholder="Dropdown Menu" readonly>
+                        <div class="option">
+                            <div onclick="show('html')">Europe/</div>
+                            <div onclick="show('css')">Europe/</div>
+                            <div onclick="show('javascript')">Europe/</div>
+                        </div>
+                    </div>
+            </div>
+
+        </div>
+    </section>
+    <script>
+        function show(val){
+            document.querySelector('.text-box').value = val
+        }
+        let dropdown = document.querySelector('.dropdown');
+        dropdown.onclick = function(){
+            dropdown.classList.toggle('active');
+        }
+        
+    </script>
+    <script src="/assets/js/luxon.min.js"></script>
+    <script src="/assets/js/app.js"></script>
+    <script src="/assets/js/quotes.js"></script>
+    
+</body>
+</html>

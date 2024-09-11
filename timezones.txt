@@ -1,0 +1,15 @@
+America/Buenos_Aires AR
+America/Sao_Paulo BR
+Asia/Tokyo JP
+Asia/Jakarta ID
+Asia/Beijing CN
+Asia/Istanbul TR
+Europe/Moscow RU
+Europe/Rome IT
+
+Los Angeles, CA
+Buenos Aires
+Istanbul
+Rome
+Dubai
+São Paulo
