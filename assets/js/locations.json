@@ -1,0 +1,43 @@
+{
+    "locations":[
+        {
+            "continent": "America",
+            "city": "Buenos Aires",
+            "country": "AR"
+        },
+        {
+            "continent": "America",
+            "city": "São Paulo",
+            "country": "BR"
+        },
+        {
+            "continent": "Asia",
+            "city": "Beijing",
+            "country": "CN"
+        },
+        {
+            "continent": "Asia",
+            "city": "Dubai",
+            "country": "AE, OM, RE, SC, TF"
+        },
+        {
+            "continent": "Asia",
+            "city": "Istanbul",
+            "country": "TR"
+        },        {
+            "continent": "Europe",
+            "city": "Moscow",
+            "country": "RU"
+        },
+        {
+            "continent": "Europe",
+            "city": "London",
+            "country": "UK"
+        },
+        {
+            "continent": "Europe",
+            "city": "Rome",
+            "country": "IT, SM, VA"
+        }
+    ]
+}
