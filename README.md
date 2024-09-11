@@ -1,0 +1,1 @@
+Este projeto baseia-se em um desafio presente no site https://www.frontendmentor.io/, onde o usuário escolhe uma cidade do globo e, através de uma api, a aplicação retorna o horário local mostrando conjuntamente uma imagem da respectiva cidade e uma citação aleatória
